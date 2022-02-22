@@ -416,6 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 64px 0;
   overflow: hidden;
+  
 }
 .section-bg {
   background-color: #f6f9fe;
@@ -423,6 +424,12 @@ section {
 .section-liteyellow {
   background-color: #f0ead6;
 }
+.section1-liteyellow {
+  background-color: #f0ead6;
+}
+
+ 
+ 
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -509,6 +516,200 @@ section {
     width: 50%;
   }
 }
+/*--------------------------------------------------------------
+# Fee And programm structure
+--------------------------------------------------------------*/
+.structure-detail{
+  position: absolute;
+    top: 85%;
+    background-color: #EAF9FF !important;
+    width: 100%;
+}
+
+  .str-title {
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 15px;
+}
+.str-cont{
+  padding-left: 15px;
+    text-align: left;
+}
+
+/* .h-cont{
+  text-align: center;
+}
+.p-cont{
+  text-align: center;
+  font-size: 15px;
+} */
+
+/*--------------------------------------------------------------
+# jumbotron
+--------------------------------------------------------------*/
+.jumbotron {
+
+ 
+  background-color: #0da2ff;
+  padding: 35px 0px;
+}
+.j-h{
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonial {
+  position: relative;
+}
+
+.testimonial:before {
+  width: 48%;
+  height: 100%;
+  top: 0;
+  left: 0px;
+  position: absolute;
+  content: "";
+  background: url("../images/bg/bg-2.jpg") no-repeat 50% 50%;
+}
+
+.testimonial .slick-dots {
+  text-align: left;
+}
+
+.testimonial-block {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.testimonial-block p {
+  background: #fff;
+  font-size: 18px;
+}
+
+.testimonial-block .client-info {
+  margin-bottom: 20px;
+  margin-top: 35px;
+  padding-bottom: 20px;
+}
+
+.testimonial-block .client-info h4 {
+  margin-bottom: 0px;
+}
+
+.testimonial-block i {
+  font-size: 60px;
+  position: absolute;
+  right: 46px;
+  bottom: 89px;
+  opacity: .08;
+}
+.icon-down {
+  position: absolute;
+  margin-top: 30px;
+}
+.testimonial-block .slick-dots {
+  text-align: left;
+}
+
+.testimonial-wrap-2 .slick-dots {
+  margin-left: -10px;
+}
+
+.testimonial-block.style-2 {
+  background: #FB486F;
+  padding: 30px;
+  margin: 0px 4px;
+  margin-bottom: 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+ 
+
+}
+.img-responsives{
+  width: 100%;
+}
+.client-cont{
+  color: #fff;
+}
+.par-img{
+  position: absolute;
+  top: 50px;
+}
+
+.client-info-1{
+  position: absolute;
+  top: 50px;
+}
+.images{
+  background-color: #f0ead6;
+}
+.testimonial-block.style-2 .testimonial-thumb {
+  float: left;
+}
+
+.testimonial-block.style-2 .testimonial-thumb img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border: 5px solid #eff0f3;
+  margin-top: -5px;
+}
+
+.testimonial-block.style-2 .client-info p {
+  clear: both;
+  background: transparent;
+}
+
+.testimonial-block.style-2 i {
+ 
+ color: #fff;
+  opacity: 1.0;
+  top: 2px;
+  left: 30px;
+}
+
+@media (max-width: 480px) {
+  .testimonial-wrap {
+    margin-left: 0px;
+  }
+  .testimonial::before {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .testimonial-wrap {
+    margin-left: 0px;
+  }
+  .testimonial::before {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-wrap {
+    margin-left: 0px;
+  }
+  .testimonial::before {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .testimonial-wrap {
+    margin-left: 0px;
+  }
+  .testimonial::before {
+    display: none;
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -857,7 +1058,35 @@ section {
     width: 80%;
   }
 }
+/*--------------------------------------------------------------
+# GAllery
+--------------------------------------------------------------*/
 
+.text-center {
+  text-align: center!important;
+  margin-top: 35px;
+}
+
+
+.section-liteblue{
+  background-color: #DCDCED;
+}
+
+.img-sec{
+  width: 80%;
+}
+
+
+.copyright{
+  text-align: center;
+}
+.c-cont {
+  color: #fff;
+  margin-top: 70px;
+  background-color: #5D5FEF;
+  padding: 43px;
+  border-radius: 18px;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1174,6 +1403,40 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact-form-wrap .form-group {
+  margin-bottom: 20px;
+}
+.btn-main {
+  background: #007474;
+  color: #fff;
+  border-color: #007474;
+  border: 1.3px dashed white;
+
+  width: 260px;
+  font-size: 1.8rem;
+}
+.contact-form-wrap .form-group .form-control {
+  height: 60px;
+  border: 1px solid #c4c4c4;
+  box-shadow: none;
+  width: 100%;
+  background: #c4c4c4;
+}
+
+.contact-form-wrap .form-group-2 {
+  margin-bottom: 13px;
+}
+
+.contact-form-wrap .form-group-2 textarea {
+  height: auto;
+  border: 1px solid #c4c4c4;
+  box-shadow: none;
+  background: #c4c4c4;
+  width: 100%;
+}
+
+
+
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1288,6 +1551,15 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+img.footer-logo {
+  margin-bottom: 15px;
+}
+
+.list-unstyled{
+  margin-top: 30px;
+}
+
 #footer {
   background: #fff;
   padding: 0 0 30px 0;
