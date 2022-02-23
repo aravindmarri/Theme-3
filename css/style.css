@@ -519,6 +519,70 @@ section {
 /*--------------------------------------------------------------
 # Fee And programm structure
 --------------------------------------------------------------*/
+
+.fee-sec .fee-img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.fee-sec .fee-img .img {
+  transition: 0.6s;
+}
+
+.fee-sec .details {
+  padding: 50px 30px;
+  margin: -50px 0px 0 0px;
+  transition: all ease-in-out 0.3s;
+  background: var(--color-white);
+  position: relative;
+  background-color: #eaf9ff;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 0 25px rgba(var(--color-black-rgb), 0.1);
+}
+
+.fee-sec .details h4 {
+  color: var(--color-default);
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  transition: ease-in-out 0.3s;
+  text-align: left;
+}
+
+.fee-sec .details p {
+  line-height: 24px;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.content {
+  padding: 0 20px 20px 20px;
+}
+
+.content h6 {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  border-radius: 3px;
+
+  transition: all .3s;
+  flex-grow: 1;
+  flex-basis: auto;
+  justify-content: center;
+}
+
+
+.p-cont {
+  text-align: center !important;
+  font-size: 13px !important;
+}
+
 .structure-detail{
   position: absolute;
     top: 85%;
@@ -630,18 +694,13 @@ section {
 .img-responsives{
   width: 100%;
 }
+.img-fee{
+  width: 100%;
+}
 .client-cont{
   color: #fff;
 }
-.par-img{
-  position: absolute;
-  top: 50px;
-}
 
-.client-info-1{
-  position: absolute;
-  top: 50px;
-}
 .images{
   background-color: #f0ead6;
 }
@@ -987,27 +1046,32 @@ section {
 font-size:50px;
 }
 .icon-down {
-  position: absolute;
+  
   margin-top: 0px;
 }
 .parents-view{
 margin-bottom: 126px;
 }
 
+.par-img, .client-info-1{
+  margin-top: 15px;
 
-.client-info-1{
-position: absolute;
-top: 215px;
-}
-.par-img{
-position: absolute;
-top: 215px;
 }
 .images{
 background-color: #f0ead6;
 }
 
 
+
+.about-cont{
+  font-size: 1.15rem;
+  font-weight: 300;
+  padding: 15px;
+  color: #FFF;
+  background-color:#5D5FEF;
+  border-radius: 15px;
+ 
+}
 
 /*--------------------------------------------------------------
 # GAllery
@@ -1024,7 +1088,7 @@ background-color: #f0ead6;
 }
 
 .img-sec{
-  width: 80%;
+  width: 100%;
 }
 
 
@@ -1038,6 +1102,8 @@ background-color: #f0ead6;
   padding: 43px;
   border-radius: 18px;
 }
+
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1368,10 +1434,10 @@ background-color: #f0ead6;
 }
 .contact-form-wrap .form-group .form-control {
   height: 60px;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #002147;
   box-shadow: none;
   width: 100%;
-  background: #c4c4c4;
+  background: #ffff;
 }
 
 .contact-form-wrap .form-group-2 {
@@ -1380,9 +1446,9 @@ background-color: #f0ead6;
 
 .contact-form-wrap .form-group-2 textarea {
   height: auto;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #002147;
   box-shadow: none;
-  background: #c4c4c4;
+  background: #ffff;
   width: 100%;
 }
 
