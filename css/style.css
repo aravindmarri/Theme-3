@@ -530,7 +530,7 @@ section {
 }
 
 .fee-sec .details {
-  padding: 50px 30px;
+  padding: 45px 30px;
   margin: -50px 0px 0 0px;
   transition: all ease-in-out 0.3s;
   background: var(--color-white);
@@ -598,6 +598,28 @@ section {
 .str-cont{
   padding-left: 15px;
     text-align: left;
+}
+.fee-button{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: #0085ff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+
+a.contact-btn-s.btn {
+  background-color: #1A6797;
+  width: 100%;
+  color: #fff;
+}
+a.contact-btn-c.btn {
+  background-color: #9EDFF3;
+  width: 100%;
+  color: #fff;
 }
 
 /* .h-cont{
@@ -669,10 +691,8 @@ section {
   bottom: 89px;
   opacity: .08;
 }
-.icon-down {
-  position: absolute;
-  margin-top: 30px;
-}
+
+
 .testimonial-block .slick-dots {
   text-align: left;
 }
@@ -1046,16 +1066,18 @@ section {
 font-size:50px;
 }
 .icon-down {
-  
-  margin-top: 0px;
+   margin-top: 0px;
 }
 .parents-view{
 margin-bottom: 126px;
 }
 
-.par-img, .client-info-1{
+.par-img{
   margin-top: 15px;
+}
 
+.client-info-1{
+  margin-top: 15px;
 }
 .images{
 background-color: #f0ead6;
@@ -1438,18 +1460,23 @@ background-color: #f0ead6;
   box-shadow: none;
   width: 100%;
   background: #ffff;
+  border-radius: 0.70rem;
 }
 
 .contact-form-wrap .form-group-2 {
   margin-bottom: 13px;
 }
-
+.admission{
+  background-color: #e8f7fd;
+  padding: 15px 35px 0px 35px;
+}
 .contact-form-wrap .form-group-2 textarea {
   height: auto;
   border: 1px solid #002147;
   box-shadow: none;
   background: #ffff;
   width: 100%;
+  border-radius: 0.70rem;
 }
 
 
@@ -1727,4 +1754,15 @@ img.footer-logo {
     text-align: center;
     padding: 2px 0;
   }
+
+  .par-img{
+    margin-top: 15px;
+  margin-left: 36px;
+  }
+  
+  .client-info-1{
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+
 }
