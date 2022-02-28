@@ -625,6 +625,12 @@ a.contact-btn-c.btn {
   font-size: 23px;
 }
 
+.contact-enquiry{
+  margin-top: 50px;
+}
+.contact-c{
+  border-radius: 8px !important;
+}
 /* .h-cont{
   text-align: center;
 }
@@ -1584,6 +1590,7 @@ background-color: #f0ead6;
   border-radius: 0.70rem;
 }
 
+
 .admission-col{
   padding-right: calc(var(--bs-gutter-x) * .0) !important;
   padding-left: calc(var(--bs-gutter-x) * .0) !important;
@@ -1637,6 +1644,19 @@ background-color: #f0ead6;
   padding: 15px;
   font-weight: 600;
 }
+.drop-btn{
+  border-radius: 31px;
+  background-color: #fff;
+  padding: 10px;
+  
+}
+.drop{
+  background-color: #ff9900;
+  font-size: 24px;
+  border-radius: 20px;
+  padding: 6px;
+}
+
 .contact .php-email-form .loading {
   display: none;
   background: #fff;
