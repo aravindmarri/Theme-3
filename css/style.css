@@ -256,6 +256,12 @@ h1, h2, h3, h4, h5, h6 {
   left: calc(100% - 30px);
   visibility: hidden;
 }
+
+
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+  width: max-content;
+  left: 0;
+}
 .navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
@@ -646,8 +652,8 @@ a.contact-btn-c.btn {
 
 .enquiry-form-wrap .form-group {
   margin-bottom: 13px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 .btn-main {
   background: #007474;
@@ -670,8 +676,8 @@ a.contact-btn-c.btn {
 .enquiry-form-wrap .form-group-2 {
  
   margin-bottom: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 35px;
+  margin-right: 35px;
 
 }
 .enquiry-form-wrap .form-group-2 textarea {
@@ -683,12 +689,12 @@ a.contact-btn-c.btn {
   border-radius: 16px;
 
 }
-.enquiry-row{
+/* .enquiry-row{
   margin-top: 60px;
   padding-right: calc(var(--bs-gutter-x) * .0) !important;
   padding-left: calc(var(--bs-gutter-x) * .0) !important;
 
-}
+} */
 .button-enquiry {
   position: relative;
   text-align: center;
