@@ -1209,6 +1209,7 @@ background-color: #f0ead6;
   color: #FFF;
   background-color:#5D5FEF;
   border-radius: 15px;
+  height: 100%;
  
 }
 
@@ -1890,7 +1891,10 @@ img.footer-logo {
     text-align: center;
     padding: 2px 0;
   }
-
+  .img-sec {
+    width: 100%;
+   
+}
 .admission
 
   .par-img{
